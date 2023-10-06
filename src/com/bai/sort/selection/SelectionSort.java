@@ -32,7 +32,7 @@ public class SelectionSort {
     public static void main(String[] args) {
         Integer[] arr = {1, 4, 2, 3, 6, 5};
 
-        SelectionSort.sort(arr);
+        com.bai.sort.selection.AnotherSelectionSort.sort(arr);
         for (Integer e : arr) {
             System.out.print(e + " ");
         }
@@ -42,7 +42,7 @@ public class SelectionSort {
                 new Student("White", 100),
                 new Student("Dragon", 65) };
                             
-        SelectionSort.sort(students);
+        com.bai.sort.selection.AnotherSelectionSort.sort(students);
 
         for (Student student : students) {
             System.out.print(student + " ");

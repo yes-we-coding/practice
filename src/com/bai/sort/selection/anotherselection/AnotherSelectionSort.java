@@ -1,13 +1,14 @@
 package com.bai.sort.selection;
 
 import com.bai.sort.common.Student;
+import com.bai.sort.selection.anotherselection.ArrayGenerator;
 
 /**
  * 选择排序
  */
-public class SelectionSort {
+public class AnotherSelectionSort {
 
-    public SelectionSort() {}
+    public AnotherSelectionSort() {}
 
     public static <E extends Comparable<E>> void sort(E[] arr) {
 
@@ -46,7 +47,7 @@ public class SelectionSort {
     public static void main(String[] args) {
         Integer[] arr = {1, 4, 2, 3, 6, 5};
 
-        SelectionSort.sort(arr);
+        AnotherSelectionSort.sort(arr);
         for (Integer e : arr) {
             System.out.print(e + " ");
         }
@@ -56,7 +57,7 @@ public class SelectionSort {
                 new Student("White", 100),
                 new Student("Dragon", 65) };
                             
-        SelectionSort.sort(students);
+        AnotherSelectionSort.sort(students);
 
         for (Student student : students) {
             System.out.print(student + " ");
